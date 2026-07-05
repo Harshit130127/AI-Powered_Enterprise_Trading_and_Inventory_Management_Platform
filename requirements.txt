@@ -1,0 +1,16 @@
+Django
+djangorestframework
+django-cors-headers
+django-filter
+
+Pillow
+
+psycopg2-binary
+
+python-decouple
+
+djangorestframework-simplejwt
+
+drf-spectacular
+
+requests
