@@ -1,6 +1,6 @@
 # AI-Powered Enterprise Trading & Inventory Management Platform
 
-A production grade Enterprise Trading & Inventory Management Platform built with Django, Django REST Framework, PostgreSQL, and React. The goal is to build a scalable backend that manages business operations while integrating AI-powered features for smarter decision-making.
+A production grade Enterprise Trading & Inventory Management Platform built with Django, Django REST Framework, PostgreSQL, and React. The goal is to build a scalable backend that manages business operations while integrating AI-powered features for smarter decision making.
 
 ---
 
