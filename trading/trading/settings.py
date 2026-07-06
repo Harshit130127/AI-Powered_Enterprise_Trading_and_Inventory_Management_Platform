@@ -39,7 +39,17 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     'django_filters',
+    'billing',
+    'suppliers',
+    'customers',
+    'inventory',
+    'accounts',
+    'dashboards',
+    'orders',
+    'products',
     
+
+
 ]
 
 MIDDLEWARE = [
