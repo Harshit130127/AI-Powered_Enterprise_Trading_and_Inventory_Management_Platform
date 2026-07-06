@@ -40,7 +40,7 @@ backend/
 ├── accounts/
 ├── products/
 ├── orders/
-├── services/
+├── billing/
 ├── dashboard/
 etc
 ```
