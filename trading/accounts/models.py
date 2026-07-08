@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 from django.contrib.auth.models import AbstractUser
-from django.db import models
+
 
 
 class CustomUser(AbstractUser):
@@ -25,7 +25,7 @@ class CustomUser(AbstractUser):
         ordering = ["-date_joined"]  # newest users first (API usability)
         indexes = [
             models.Index(fields=["phone_number"]),  # to search by phone or to increase efficency
-            
+
         ]
 
 
