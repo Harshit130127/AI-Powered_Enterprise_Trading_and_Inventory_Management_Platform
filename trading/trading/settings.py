@@ -43,12 +43,12 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     'django_filters',
-    'billing',
-    'suppliers',
-    'customers',
-    'inventory',
+    # 'billing',
+    # 'suppliers',
+    # 'customers',
+    # 'inventory',
     'accounts',
-    'dashboards',
+    # 'dashboards',
     'orders',
     'products',
 
@@ -100,6 +100,7 @@ DATABASES = {
     }
 }
 
+AUTH_USER_MODEL = 'accounts.CustomUser'
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
